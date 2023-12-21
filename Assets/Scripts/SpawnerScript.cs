@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class SpawnerScript : MonoBehaviour
 {
-    public float spawnRate = 1f;
+    public float spawnRate = 3f;
     private float timer = 0f;
 
     // ----Array machen----
-    public GameObject [] BlockSetAll;
+    public GameObject [] BlockSet;
 
     public GameObject instantiatedBlockSet;
     void Start()
@@ -36,6 +36,6 @@ public class SpawnerScript : MonoBehaviour
     void spawnBlockset()
     {
 
-        instantiatedBlockSet = Instantiate(BlockSetAll[Random.Range(0, BlockSetAll.Length)]);    //Dupliziert ein GameObject
+        instantiatedBlockSet = Instantiate(BlockSet[Random.Range(0, BlockSet.Length)]);    //Dupliziert ein GameObject
     }
 }

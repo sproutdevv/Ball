@@ -812,7 +812,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 523ceb00586ff4648866b74c3b096227, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnRate: 0.65
+  spawnRate: 2
   BlockSetAll:
   - {fileID: 2678866497697318997, guid: 8078d6217f027734384b4dc5773118a2, type: 3}
   - {fileID: 9159951944175404964, guid: 887851ac774b8f949a2dd4497edbe8d5, type: 3}
